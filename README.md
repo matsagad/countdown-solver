@@ -1,10 +1,10 @@
 # Countdown Solver
 
-<p align="center" width="100%">
+<p align='center'>
   <img width="40%" src="https://github.com/matsagad/countdown-solver/blob/main/public/demo.gif" alt="Demo Video"/>
 </p>
 
-A neat little web app that finds and displays the best answer to a Countdown Numbers Game. The given solution conforms to the Countdown rules (i.e. no fractional intermediate steps, integers as answers, and not all numbers need to be used). If no exact answer is found, the closest one is provided.
+A neat little web app that finds and displays the best answer to the [Countdown Numbers Game](https://wiki.apterous.org/Numbers_game). The given solution conforms to the Countdown rules (i.e. integers as answers, no fractional intermediate steps, basic operations only, and all numbers need not be used). If no exact answer is found, the closest one is provided. Try it out [here](https://matsagad.github.io/countdown-solver).
 
 ## Algorithm
 
