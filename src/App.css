@@ -1,0 +1,146 @@
+.container {
+  background-color: #554c80;
+  width: 80vmin;
+  height: 75vmin;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  border: 1.5vmin solid #4c282f;
+  border-radius: 8px;
+  padding: 1.5vmin;
+}
+
+.Board {
+  height: 75vmin;
+  display: flex;
+  flex-direction: column-reverse;
+  align-content: stretch;
+  justify-content: space-evenly;
+  gap: 1.75vmin;
+}
+
+.NumberBoard {
+  background-color: #569bc9;
+  text-align: center;
+  padding: 0 1.5vmin 1.5vmin 1.5vmin;
+  height: 25vmin;
+  border-radius: 1vmin 1vmin 0 0;
+}
+
+.NumberCard {
+  background-color: #554c80;
+  color: #d3d6b2;
+  outline: none;
+  border: none;
+  border-radius: 0.5vmin;
+  font-family: 'Futura-CondensedExtraBold';
+  text-align: center;
+  font-size: 5vmin;
+  width: 9vmin;
+  height: 7.2vmin;
+  transform: scaleY(1.25);
+  -moz-appearance: textfield;
+  padding: 0.5vmin;
+  margin: 0.5vmin;
+}
+
+.NumberCard::-webkit-outer-spin-button,
+.NumberCard::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.Target {
+  width: 24vmin !important;
+  font-weight: bold;
+  font-size: 9vmin;
+  transform:  none;
+  border: 1.5vmin solid #4c282f;
+  margin-top: -1vmin;
+  margin-bottom: 1.75vmin;
+  padding: 1vmin 0 1vmin 0;
+}
+
+.Empty {
+  background-color: #84cec9;
+}
+
+.Button {
+  position: absolute;
+  font-family: 'Futura';
+  outline: none;
+}
+
+.Randomizer {
+  border: #554c80 solid 1vmin;
+  border-radius: 2vmin;
+  height: 4vmin;
+  width: 4vmin;
+  background-color: #84cec9;
+  transform: translate(-5vmin, 6vmin);
+  cursor: pointer;
+}
+
+.Randomizer:hover {
+  background-color: #569bc9;
+}
+
+.Randomizer:active {
+  background-color: #554c80;
+}
+
+.WhiteBoard {
+  height: 45vmin;
+  font-size: 4.5vmin;
+  border-radius: 0 0 1vmin 1vmin;
+  background-color: #d3d6b2;
+  background-size: 5vmin 5vmin;
+  background-image:
+    linear-gradient(to right, #569bc9 0.25vmin, transparent 0.25vmin),
+    linear-gradient(to bottom, #569bc9 0.25vmin, transparent 0.25vmin);
+}
+
+.Expression {
+  width: 80vmin;
+  height: 35vmin;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Hidden {
+  visibility: hidden;
+}
+
+.dot {
+  height: 1vmin;
+  width: 1vmin;
+  background-color: #4c282f;
+  border-radius: 50%;
+  position: absolute;
+}
+
+.Solve {
+  background-color: #569bc9;
+  color: #d3d6b2;
+  border: none;
+  border-radius: 1vmin;
+  padding: 1vmin;
+  font-size: 2.5vmin;
+  font-weight: bold;
+  height: 6vmin;
+  width: 14vmin;
+  transform: translate(33vmin, 32vmin);
+  cursor: pointer;
+}
+
+.Solve:hover {
+  background-color: #554c80;
+  color: #d3d6b2;
+}
+
+.Solve:active {
+  background-color: #4c282f;
+  color: #d3d6b2;
+}
