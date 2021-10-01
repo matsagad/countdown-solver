@@ -75,6 +75,7 @@
 .Randomizer {
   border: #554c80 solid 1vmin;
   border-radius: 2vmin;
+  padding: 0;
   height: 4vmin;
   width: 4vmin;
   background-color: #84cec9;
@@ -92,7 +93,7 @@
 
 .WhiteBoard {
   height: 45vmin;
-  font-size: 4.5vmin;
+  font-size: 4.25vmin;
   border-radius: 0 0 1vmin 1vmin;
   background-color: #d3d6b2;
   background-size: 5vmin 5vmin;
