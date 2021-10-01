@@ -23,11 +23,11 @@ function NumberCard(props) {
     if (0 <= newValue && newValue <= 999) {
       setValue(newValue);
       props.onChange(newValue);
-      return;
     }
   }
   return (
     <input 
+      type='tel'
       value={displayValue(props.isTarget ? props.value : value)}
       onInput={inputHandler}
       className={'NumberCard ' + (props.isTarget ? 'Target' : (value >= 0 ? '' : 'Empty'))}
